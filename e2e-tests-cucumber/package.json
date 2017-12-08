@@ -1,0 +1,34 @@
+{
+  "name": "protractor_cucumber",
+  "version": "1.0.0",
+  "description": "An example Protractor project",
+  "engines": {
+    "node": "8.9.0"
+  },
+  "repository": {
+    "type": "github"
+  },
+  "keywords": [
+    "cucumber",
+    "protractor",
+    "page objects",
+    "tests",
+    "automation",
+    "webdriver"
+  ],
+  "dependencies": {
+    "chai": "4.1.2",
+    "chai-as-promised": "^7.1.1",
+    "chromedriver": "2.33",
+    "cucumber": "^3.0.4",
+    "cucumber-html-reporter": "^3.0.4",
+    "jasmine": "2.8.0",
+    "jasmine-expect": "latest",
+    "jasmine-spec-reporter": "latest",
+    "protractor": "5.2.0",
+    "protractor-cucumber-framework": "^4.0.8"
+  },
+  "scripts": {
+    "test": "protractor config.js"
+  }
+}

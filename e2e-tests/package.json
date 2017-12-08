@@ -1,0 +1,30 @@
+{
+  "name": "protractor",
+  "version": "1.0.0",
+  "description": "An example Protractor project",
+  "engines": {
+    "node": "8.9.0"
+  },
+  "repository": {
+    "type": "github"
+  },
+  "keywords": [
+    "protractor",
+    "page objects",
+    "tests",
+    "automation",
+    "webdriver"
+  ],
+  "dependencies": {
+    "protractor": "5.2.0",
+    "chai": "4.1.2",
+    "chai-as-promised": "latest",
+    "jasmine": "2.8.0",
+    "jasmine-expect": "latest",
+    "chromedriver": "2.33",
+    "jasmine-spec-reporter": "latest"
+  },
+  "scripts": {
+    "test": "protractor protractor.conf.js"
+  }
+}
